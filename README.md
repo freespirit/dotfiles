@@ -21,4 +21,4 @@ Yet, some highlights:
     ```
     alias glp='git log --pretty=format:"%C(yellow)%h%Creset - %C(white)%ad %C(blue)%an:%n    %s%n" --date=local'
 
-Most of the functionality is inspired by (or copied from) different sources but as time has passed none could be cited now.
+Most of the functionality is inspired by (or copied from) different sources a long time ago and as time has passed none could be cited now.
