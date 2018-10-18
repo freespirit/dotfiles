@@ -1,2 +1,5 @@
 # dotfiles
-A bunch of dot files used to customise my Terminal
+A bunch of .files used to customise my Terminal
+
+# What's inside
+Most of it is simple coloring and aliases - nothing special.
