@@ -11,12 +11,20 @@ Yet, some highlights:
     alias ll='ls -laG'
 
  * displaying the current git branch (if there is one ):
-    ```
-    parse_git_branch() {
-        git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ \1/'
-    }
-    export PS1="\h/\u:\[\033[0;34m\]\W\[\033[0;93m\]\$(parse_git_branch)\[\033[0m\] $ "
- 
+    * bash: 
+        ```
+        parse_git_branch() {
+            git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ \1/'
+        }
+        export PS1="\h/\u:\[\033[0;34m\]\W\[\033[0;93m\]\$(parse_git_branch)\[\033[0m\] $ "
+    * zsh:
+        ```
+        autoload -Uz compinit && compinit # e.g. for git autocomplete
+        setopt PROMPT_SUBST
+        source ~/.git-prompt.sh // copied from the official git repo
+        # export PROMPT with `$(__git_ps1 "(%s) ")` in it. In my case, wrapped in DarkOliveGreen1 - %F{191} ... %f
+        export PROMPT='%n@%m %F{33}%2~%f %F{191}$(__git_ps1 "(%s) ")%f%# '
+
  * using various aliases for git commands, one of which is a short (and colorful) version of `log`:
     ```
     alias glp='git log --pretty=format:"%C(yellow)%h%Creset - %C(white)%ad %C(blue)%an:%n    %s%n" --date=local'
