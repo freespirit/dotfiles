@@ -6,7 +6,7 @@ setopt PROMPT_SUBST
 source ~/.git-prompt.sh
 
 # Format: name@host; colored dir; colored git branch; %
-export PROMPT='%n@%m %F{33}%2~%f %F{191}$(__git_ps1 "(%s) ")%f%# '
+export PROMPT='%n@%m %F{32}%2~%f %F{221}$(__git_ps1 "(%s) ")%f%# '
 
 alias la='ls -a'
 alias ll='ls -laG'
