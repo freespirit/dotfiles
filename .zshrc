@@ -1,3 +1,4 @@
+fpath+=~/.zfunc
 autoload -Uz compinit && compinit # e.g. for git autocomplete
 
 setopt AUTO_CD
@@ -10,22 +11,20 @@ export GIT_PS1_SHOWDIRTYSTATE=true
 export GIT_PS1_SHOWUNTRACKEDFILES=true
 source ~/.git-prompt.sh
 
+export LSCOLORS=Fxfxcxdxbxegedabagacad
 # Format: colored dir; colored git branch; %
-export PROMPT='%B%F{blue}%2~%f %F{yellow}$(__git_ps1 "(%s) ")%f%# '
+export PROMPT='%B%F{blue}%2~%f %F{yellow}$(__git_ps1 "(%s) ")%f '
 
-alias la='ls -a'
-alias ll='ls -laG'
-alias l='ls'
+alias ll='ls -alG'
+alias l='ls -lG'
 
 # git aliases
-alias gfgr='git fetch;git rebase'
 alias gl='git log'
-alias glp='git log --pretty=format:"%C(yellow)%h%Creset - %C(white)%ad %C(blue)%an:%n    %s%n" --date=local'
-alias gs='git status'
+alias glp='git log --pretty=format:"%C(yellow)%h%Creset - %C(white)%ad %C(cyan)%an:%n    %s%n" --date=local'
+alias gs='git status -sb'
 alias gsh='git stash'
 alias gco='git checkout'
 alias gpo='git push --progress origin'
-alias gshgp='git stash;git pull'
 
 function xman() { open x-man-page://$@ ; }
 
