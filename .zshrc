@@ -7,6 +7,13 @@ setopt NO_CASE_GLOB
 setopt PROMPT_SUBST
 
 # Add git branch/repo to the prompt
+## This is the zsh-style way
+#autoload -Uz vcs_info
+#precmd_vcs_info() { vcs_info }
+#precmd_functions+=( precmd_vcs_info )
+#zstyle ':vcs_info:*' enable git
+#zstyle ':vcs_info:git:*' formats '%F{221}%b%f'
+## This is the git way
 export GIT_PS1_SHOWDIRTYSTATE=true
 export GIT_PS1_SHOWUNTRACKEDFILES=true
 source ~/.git-prompt.sh
