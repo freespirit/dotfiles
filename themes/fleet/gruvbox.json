@@ -1,0 +1,108 @@
+{
+    "meta": {
+        "theme.name": "Gruvbox Dark",
+        "theme.kind": "Dark",
+        "theme.version": 1
+    },
+    "colors": {
+        "island.background": "Black",
+        "background.selected": "SelectionBackground",
+        "disabled": "Transparent",
+        "text.defaut": "White",
+        "text.primary": "White",
+        "text.dangerous": "Red",
+        "text.bright": "BrightWhite",
+        "editor.text": "White",
+        "listItem.text.default": "White",
+        "listItem.text.selected": "BrightWhite",
+        "listItem.text.secondary": "BrightWhite"
+    },
+    "textAttributes": {
+        "comment": {
+            "foregroundColor": "SelectionBackground"
+        },
+        "comment.doc": {
+            "foregroundColor": "Green"
+        },
+        "comment.todo": {
+            "foregroundColor": "Cyan"
+        },
+        "diff.modified": {
+            "backgroundColor": "#ff2222"
+        },
+        "editor.brace.match": {
+            "backgroundColor": "SelectionBackground"
+        },
+        "editor.selection": {
+            "backgroundColor": "Background",
+            "foregroundColor": "Foreground"
+        },
+        "editor.selection.focused": {
+            "backgroundColor": "SelectionBackground",
+            "foregroundColor": "SelectionForeground"
+        },
+        "editor.text.scheme": {
+            "foregroundColor": "White"
+        },
+        "identifier": {
+            "foregroundColor": "White"
+        },
+        "identifier.constant": {
+            "foregroundColor": "Magenta"
+        },
+        "identifier.function.call": {
+            "foregroundColor": "Blue"
+        },
+        "identifier.function.declaration": {
+            "foregroundColor": "Blue"
+        },
+        "identifier.method.static": {
+            "foregroundColor": "Blue"
+        },
+        "identifier.this": {
+            "foregroundColor": "Magenta"
+        },
+        "identifier.type": {
+            "foregroundColor": "Yellow"
+        },
+        "identifier.underCaret": {
+            "backgroundColor": "Background",
+            "decoration": {
+                "color": "SelectionBackground",
+                "style": "BORDER"
+            }
+        },
+        "keyword": {
+            "foregroundColor": "Red"
+        },
+        "key.json": {
+            "foregroundColor": "Blue"
+        },
+        "string": {
+            "foregroundColor": "Green"
+        }
+    },
+    "palette": {
+        "Black": "#1d2021",
+        "Red": "#cc241d",
+        "Green": "#98971a",
+        "Yellow": "#d79921",
+        "Blue": "#458588",
+        "Magenta": "#b16286",
+        "Cyan": "#689d6a",
+        "White": "#a89984",
+        "BrightBlack": "#928374",
+        "BrightRed": "#fb4934",
+        "BrightGreen": "#b8bb26",
+        "BrightYellow": "#fabd2f",
+        "BrightBlue": "#83a598",
+        "BrightMagenta": "#d3869b",
+        "BrightCyan": "#8ec07c",
+        "BrightWhite": "#ebdbb2",
+        "Background": "#1d2021",
+        "Foreground": "#ebdbb2",
+        "SelectionBackground": "#665c54",
+        "SelectionForeground": "#ebdbb2",
+        "Transparent": "#ffffff00"
+    }
+}
