@@ -1,6 +1,6 @@
 {
     "meta": {
-        "theme.name": "Gruvbox Dark",
+        "theme.name": "Gruvbox",
         "theme.kind": "Dark",
         "theme.version": 1
     },
@@ -15,7 +15,40 @@
         "editor.text": "White",
         "listItem.text.default": "White",
         "listItem.text.selected": "BrightWhite",
-        "listItem.text.secondary": "BrightWhite"
+        "listItem.text.secondary": "BrightWhite",
+        "tab.text": "White",
+        "terminal.ansiColors.background.ansiBlack": "Black",
+        "terminal.ansiColors.foreground.ansiBlack": "White",
+        "terminal.ansiColors.background.ansiWhite": "White",
+        "terminal.ansiColors.foreground.ansiWhite": "Black",
+        "terminal.ansiColors.background.ansiBrightBlue": "BrightBlue",
+        "terminal.ansiColors.foreground.ansiBrightBlue": "BrightBlue",
+        "terminal.ansiColors.background.ansiBrightCyan": "BrightCyan",
+        "terminal.ansiColors.foreground.ansiBrightCyan": "BrightCyan",
+        "terminal.ansiColors.background.ansiBrightGreen": "BrightGreen",
+        "terminal.ansiColors.foreground.ansiBrightGreen": "BrightGreen",
+        "terminal.ansiColors.background.ansiBrightMagenta": "BrightMagenta",
+        "terminal.ansiColors.foreground.ansiBrightMagenta": "BrightMagenta",
+        "terminal.ansiColors.background.ansiBrightRed": "BrightRed",
+        "terminal.ansiColors.foreground.ansiBrightRed": "BrightRed",
+        "terminal.ansiColors.background.ansiBrightWhite": "Black",
+        "terminal.ansiColors.foreground.ansiBrightWhite": "Black",
+        "terminal.ansiColors.background.ansiBrightYellow": "BrightYellow",
+        "terminal.ansiColors.foreground.ansiBrightYellow": "BrightYellow",
+        "terminal.ansiColors.background.ansiCyan": "Cyan",
+        "terminal.ansiColors.foreground.ansiCyan": "Cyan",
+        "terminal.ansiColors.background.ansiGreen": "Green",
+        "terminal.ansiColors.foreground.ansiGreen": "Green",
+        "terminal.ansiColors.background.ansiMagenta": "Magenta",
+        "terminal.ansiColors.foreground.ansiMagenta": "Magenta",
+        "terminal.ansiColors.background.ansiRed": "Red",
+        "terminal.ansiColors.background.ansiRed": "Red",
+        "terminal.ansiColors.background.ansiBlue": "Blue",
+        "terminal.ansiColors.foreground.ansiBlue": "Blue",
+        "terminal.ansiColors.background.ansiWhite": "Black",
+        "terminal.ansiColors.foreground.ansiWhite": "Black",
+        "terminal.ansiColors.background.ansiYellow": "Yellow",
+        "terminal.ansiColors.foreground.ansiYellow": "Yellow",
     },
     "textAttributes": {
         "comment": {
@@ -59,6 +92,9 @@
         "identifier.method.static": {
             "foregroundColor": "Blue"
         },
+        "identifier.other": {
+            "foregroundColor": "Magenta"
+        },
         "identifier.this": {
             "foregroundColor": "Magenta"
         },
@@ -80,7 +116,7 @@
         },
         "string": {
             "foregroundColor": "Green"
-        }
+        },
     },
     "palette": {
         "Black": "#1d2021",

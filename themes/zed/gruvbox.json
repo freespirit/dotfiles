@@ -8,7 +8,8 @@
             "appearance": "dark",
             "style": {
                 "text": "#a89984",
-                "text.accent": "#ebdbb2",
+                "text.accent": "#458588",
+                "text.muted": "#a89984",
                 "foreground": "#a89984",
                 "background": "#1d2021",
                 // "border": "#1d2021",
@@ -19,18 +20,24 @@
                 "elevated_surface.background": "#1d2021",
                 "error.background": "#cc241d",
                 "hint": "#665c54",
-                "icon.accent": "#ff2222",
+                "icon.accent": "#d79921",
                 "info": "#458588",
+                "info.background": "#665c54",
+                "info.border": "#458588",
                 "created": "#98971a",
-
+                "created.background": "#aa2222",
+                "created.border": "#aa2222",
+                "conflict": "#aa2222",
+                "conflict.background": "#aa2222",
                 "deleted": "#fb4934",
                 "modified": "#458588",
+                "modified.background": "#aa2222",
                 "panel.background": "#1d2021",
                 "panel.focused_border": "#ebdbb2",
                 "pane.focused_border": "#ebdbb2",
                 "pane_group.border": "#665c54",
                 "predictive": "#d3869b",
-                "predictive.background": "#22aa22",
+                "predictive.background": "#aa2222",
                 "renamed": "#b16286",
                 "search.match_background": "#1d2021",
                 "status_bar.background": "#1d2021",
@@ -54,22 +61,26 @@
                 "warning": "#fabd2f",
                 "tab_bar.background": "#1d2021",
                 "tab.inactive_background": "#1d2021",
-                // "tab.active_background": "#000000",
                 "title_bar.background": "#000000",
+                "text.placeholder": "#665c54",
+                "renamed.background": "#aa2222",
+                "hint.background": "#22aa22",
 
                 "syntax": {
                     "comment": {
                         "color": "#665c54"
                     },
+                    "comment.doc": {
+                        "color": "#8ec07c"
+                    },
                     "function": {
                         "color": "#458588"
                     },
                     "keyword": {
-                        "color": "#cc241d"
+                        "color": "#b16286"
                     },
                     "predictive": {
-                        "color": "#b16286",
-                        "background_color": "aa2222"
+                        "color": "#8ec07c"
                     },
                     "string": {
                         "color": "#98971a"
